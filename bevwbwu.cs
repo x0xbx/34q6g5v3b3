@@ -1,4 +1,4 @@
-1.9.1.8634551
+1.9.0.8634551
 namespace CWTrainer
 {
     class Offsets
