@@ -2,19 +2,19 @@ namespace CWTrainer
 {
     class Offsets
     {
-        internal static string version = "1.9.9.8634551";
+        internal static string version = "1.10.0.8801880";
 
         public static class Bases
         {
-            public static int PlayerBase = 0x10888578; //1.9.3
+            public static int PlayerBase = 0x109BCE20; //1.10
 
-            public static int XPScaleBase = 0x108B0570; //1.9.3
+            public static int XPScaleBase = 0x109E4E18; //1.10
 
-            public static int CMDBufferBase = 0x120ECA40; //1.9.3
+            public static int CMDBufferBase = 0x121AA300; // + 0x50418; //1.10
 
-            public static int TimeScaleBase = 0xF94C794; //1.9.3
+            public static int TimeScaleBase = 0xF494A64; //1.10
 
-            public static int JumpHeightBase = 0x1097F2A8; //1.9.3
+            public static int JumpHeightBase = 0x10AB3B58; //1.10
         }
 
         public static class PlayerCompPtr
@@ -41,6 +41,8 @@ namespace CWTrainer
             public static int CritKill6 = 0x10C8;
             public static int CritKill7 = 0x10D4;
             public static int CritKill8 = 0x10D6;
+            public static int CritKill9 = 0x10D8; //1.10
+
 
             public static int KillCount = 0x5CE8;
         }
