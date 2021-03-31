@@ -2,7 +2,7 @@ namespace CWTrainer
 {
     class Offsets
     {
-        internal static string version = "1.10.0.8801880";
+        internal static string version = "1.10.1.8845202";
 
         public static class Bases
         {
