@@ -6,15 +6,17 @@ namespace CWTrainer
 
         public static class Bases
         {
-            public static int PlayerBase = 0x109BCE20; //1.10
+            public static int Globalstats_Pregame = 0x1360CD10; //1.10.1
 
-            public static int XPScaleBase = 0x109E4E18; //1.10
+            public static int PlayerBase = 0x109BCE20; //1.10.1
 
-            public static int CMDBufferBase = 0x121AA300; // + 0x50418; //1.10
+            public static int XPScaleBase = 0x109E4E18; //1.10.1
 
-            public static int TimeScaleBase = 0xF494A64; //1.10
+            public static int CMDBufferBase = 0x121AA300; // + 0x50418; //1.10.1
 
-            public static int JumpHeightBase = 0x10AB3B58; //1.10
+            public static int TimeScaleBase = 0xF494A64; //1.10.1
+
+            public static int JumpHeightBase = 0x10AB3B58; //1.10.1
         }
 
         public static class PlayerCompPtr
